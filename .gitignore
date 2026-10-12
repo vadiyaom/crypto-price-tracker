@@ -1,0 +1,37 @@
+# Python Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Streamlit Local Secrets & Config
+# IMPORTANT: Never commit your secrets.toml file to GitHub!
+.streamlit/secrets.toml
+
+# Local Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+
+# IDE / Editor Folders
+.vscode/
+.idea/
+*.swp
+*.swo
